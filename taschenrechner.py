@@ -24,7 +24,7 @@ elif operator=="*":
     print(f"Das Ergebnis lautet {summe}")
 elif operator =="/":
     if zahl2==0:
-        print("Diviedieren durch 0 nicht erlaubt")
+        print("Dividieren durch 0 nicht erlaubt")
     else:
         summe = round(dividieren(zahl1,zahl2), 2)
         print(f"Das Ergebnis lautet {summe}")
